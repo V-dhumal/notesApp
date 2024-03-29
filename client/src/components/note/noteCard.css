@@ -1,0 +1,35 @@
+.note-card{
+    border:1px solid gray;
+    padding:5px 20px;
+    margin:10px;
+    border-radius:10px;
+    box-shadow: 0px 0px 5px 5px rgb(214, 216, 216);
+    cursor:pointer;
+    position:relative;
+    margin-bottom:20px;
+}
+.note-card:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.note-card-category{
+    background-color:black;
+    color:white;
+    padding:5px 20px;
+    margin:20px;
+    position:absolute;
+    top:0;
+    right:20px;
+}
+.delete-icon{
+    height:30px;
+    position:absolute;
+    bottom:10px;
+    right:30px;
+}
+.update-icon{
+    height:30px;
+    position:absolute;
+    bottom:10px;
+    right:80px;
+}
