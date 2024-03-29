@@ -4,7 +4,7 @@ import axios from 'axios'
 import toast from 'react-hot-toast'
 import { useParams } from 'react-router-dom'
 
-function newNotes() {
+function UpdateNote() {
   const [title, setTitle] = useState('');
   const [category, setCategory] = useState('');
   const [content, setContent] = useState('');
@@ -91,4 +91,4 @@ function newNotes() {
   )
 }
 
-export default newNotes
+export default UpdateNote

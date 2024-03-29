@@ -3,10 +3,10 @@ import './newNotes.css'
 import axios from 'axios'
 import toast from 'react-hot-toast'
 
-function NewNote() {
-  const [title, setTitle] = useState('')
-  const [category, setCategory] = useState('')
-  const [content, setContent] = useState('')
+function NewNotes() {
+  const [title, setTitle] = useState('');
+  const [category, setCategory] = useState('');
+  const [content, setContent] = useState('');
 
   const addNote = async() => {
     const response = await axios.post(`${process.env.REACT_APP_API_URL}/notes`,
@@ -17,9 +17,9 @@ function NewNote() {
     })
 
     toast.success(response.data.message)
-    setTitle('')
-    setCategory('')
-    setContent('')
+    setTitle('');
+    setCategory('');
+    setContent('');
   }
 
   return (
@@ -69,4 +69,4 @@ function NewNote() {
   )
 }
 
-export default NewNote
+export default NewNotes

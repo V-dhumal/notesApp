@@ -6,7 +6,7 @@ import {
   RouterProvider
 } from "react-router-dom";
 import Home from './views/HomeFloder/home';
-import NewNote from './views/newNotes/newNotes';
+import NewNote from './views/newNotes/NewNotes';
 import UpdateNote from './views/updateNotes/UpdateNote';
 import { Toaster } from 'react-hot-toast';
 
