@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom'
 function NoteCard({ _id, title, content, category, loadNotes }) {
 
   const deleteNote = async () => {
-    const response = await axios.delete(`${process.env.REACT_APP_API_URL}/notes/${_id}`)
-    toast.success(response.data.message)
+    const response = await axios.delete(`${process.env.REACT_APP_API_URL}/notes/${_id}`);
+    toast.success(response.data.message);
     loadNotes()
   }
 

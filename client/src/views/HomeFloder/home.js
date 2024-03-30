@@ -25,7 +25,12 @@ function Home() {
         notes.map((note) => {
           const {_id, title, content, category} = note;
 
-          return (<NoteCard key={_id} _id={_id} title={title} content={content} category={category} loadNotes={loadNotes}/> )
+          return (<NoteCard key={_id}
+             _id={_id}
+              title={title}
+               content={content} 
+               category={category}
+               loadNotes={loadNotes}/> )
         })
       }
     </div>

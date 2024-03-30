@@ -73,7 +73,7 @@ app.post("/notes" , async(req,res)=>{
 
 app.get("/notes", async(req,res)=>{
 
-    const notes=await Note.findOne();
+    const notes=await Note.find();
     res.json({
         sucess:true,
         message:"Notes fetched successfully",

@@ -1,12 +1,13 @@
 .note-card{
     border:1px solid gray;
     padding:5px 20px;
-    margin:10px;
+    margin:30px;
     border-radius:10px;
     box-shadow: 0px 0px 5px 5px rgb(214, 216, 216);
     cursor:pointer;
     position:relative;
     margin-bottom:20px;
+    font-size:20px;
 }
 .note-card:hover{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -15,21 +16,27 @@
 .note-card-category{
     background-color:black;
     color:white;
-    padding:5px 20px;
-    margin:20px;
+    padding:3px 10px;
+    margin:8px;
     position:absolute;
     top:0;
     right:20px;
+    border-radius:20px;
+    font-size:12px;
 }
 .delete-icon{
-    height:30px;
+    height:20px;
     position:absolute;
-    bottom:10px;
+    bottom:15px;
     right:30px;
+    background-color:black;
+    padding:3px 3px;
+    border-radius: 50%;
 }
 .update-icon{
-    height:30px;
+    height:20px;
     position:absolute;
-    bottom:10px;
-    right:80px;
+    bottom:18px;
+    right:60px;
+    
 }
